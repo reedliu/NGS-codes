@@ -29,7 +29,7 @@ tail -n +2 E-MTAB-5130.sdrf.txt | awk '{print $(NF-6)}' >id
 
 cat id | while read id; do wget -c $id; done
 
-# if download sra data, then 
+## if download sra data, then 
 # ls *sra |while read id; do fastq-dump --split-3 $id;done
 
 ################################################
