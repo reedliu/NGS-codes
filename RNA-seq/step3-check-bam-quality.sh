@@ -16,4 +16,4 @@ ls * | paste - - - - - - - - - - - - - - - - #得到全部样本名（作为列�
 # cat 其中任意一个.flagstat | cut -d'+' -f 2 | cut -d' ' -f 3-9 #得到统计信息（行名）
 
 # 参考 https://upload-images.jianshu.io/upload_images/9376801-c3c4e38ec24404ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
-![stat.png](https://upload-images.jianshu.io/upload_images/9376801-c3c4e38ec24404ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
