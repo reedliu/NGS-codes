@@ -43,4 +43,5 @@ if(!require("DESeq2")) BiocManager::install("DESeq2",update = F,ask = F)
 
 if(!require("edgeR")) BiocManager::install("edgeR",update = F,ask = F)
 
-
+# load multiple packages at one time
+lapply(c('limma','DESeq2','edgeR'),function(x) suppressMessages(library(x,character.only = T)))
