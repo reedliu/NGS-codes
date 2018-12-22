@@ -13,7 +13,7 @@ colnames(count) <- unlist(lapply(tmp, function(x) strsplit(x,split="_")[1]))
 ######################################
 # Deseq2 needs countData and colData
 ######################################
-suppressPackageStartupMessages(library(DESeq2))
+suppressMessages(library(DESeq2))
 countData <- count[apply(count, 1, sum) > 0 ,]
 (colData <- data.frame(row.names =colnames(countData), condition=factor(rep(c("day0","day1","day2","day3"),each=4))))
 dds <- DESeqDataSetFromMatrix(

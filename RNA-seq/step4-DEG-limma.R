@@ -12,7 +12,7 @@ colnames(count) <- unlist(lapply(tmp, function(x) strsplit(x,split="_")[1]))
 ######################################
 # limma
 ######################################
-suppressPackageStartupMessages(library(limma))
+suppressMessages(library(limma))
 
 countData <- count[apply(count, 1, sum) > 0 ,]
 group_list <- rep(c("day0","day1","day2","day3"),each=4)
