@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ## Hard Code Params
-DIR='/scratch/cgsb/gencore/out/Gresham/2015-10-23_HK5NHBGXX/lib1-26/'
-REF='/scratch/work/cgsb/reference_genomes/Public/Fungi/Saccharomyces_cerevisiae/R64-1-1/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa'
+DIR='/WORKSPACE/HOME/'
+REF='/REF_DIR/'
 SNPEFF_DB='Saccharomyces_cerevisiae'
 PL='illumina'
 PM='nextseq'
-EMAIL=${USER}@nyu.edu
+EMAIL=${USER}@gmail.com
 
 ## Or Set Params via Command Line
 #DIR=$1 #DIRECTORY WITH FASTQ FILES TO PROCESS
@@ -14,7 +14,7 @@ EMAIL=${USER}@nyu.edu
 #SNPEFFDB=$3    #SNPEFF DB TO USE
 #PL=$4  #EX: illumina
 #PM=$5  #EX: nextseq
-#EMAIL=$6 #EX: netID@nyu.edu
+#EMAIL=$6 #EX: ${USER}@gmail.com
 
 
 ## Modules Used in this script
