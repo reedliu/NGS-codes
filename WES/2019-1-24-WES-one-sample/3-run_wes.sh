@@ -1,3 +1,7 @@
+# Author: Reed Liu
+# Mail: jieandze1314@gmail.com
+# Date: 2019-01-24
+
 #PBS -N wes-test
 #PBS -o /public/home/liuyunze/result/wes-test.out
 #PBS -e /public/home/liuyunze/result/wes-test.err

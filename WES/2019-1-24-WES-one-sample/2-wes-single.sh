@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 ###############################################
 ############# WES for one sample ##############
+# Author: Reed Liu
+# Mail: jieandze1314@gmail.com
+# Date: 2019-01-24
+
 ## Usage: 
 #cat $wkd/raw/conf | while read i;do
 #	fqs=($i)
